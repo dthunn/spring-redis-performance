@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("product/v1")
+@RequestMapping("product")
 @RequiredArgsConstructor
 public class ProductController {
 
